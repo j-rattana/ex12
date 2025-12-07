@@ -154,3 +154,17 @@ footer {
 .footer-links a:hover {
   color: white;
 }
+
+.button {
+  padding: 13px 0;
+  background: #5a8f61;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #4b7952;
+}
