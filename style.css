@@ -130,3 +130,27 @@ header {
 .first { background-image: url('https://i.pinimg.com/736x/cc/79/fb/cc79fb4628a3adb0052ee34eba7ca3ed.jpg'); }
 .second { background-image: url('https://i.pinimg.com/736x/c5/69/06/c56906f0c5303e6774ab61bad2ed5ff6.jpg'); }
 .third { background-image: url('https://i.pinimg.com/736x/08/88/87/088887325c283f9d2bc02fb6364d60f7.jpg'); }
+
+footer {
+  padding: 60px;
+  background: #2e4730;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links,
+.footer-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d4ead0;
+}
+
+.footer-links a:hover {
+  color: white;
+}
