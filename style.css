@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Karla", sans-serif;
+  background: #f5f6f2;
+  color: black;
+  line-height: 1.5;
+}
+
