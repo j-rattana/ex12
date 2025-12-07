@@ -52,3 +52,9 @@ header {
   max-width: 700px;
   color: #3b3b3b;
 }
+
+.intro span {
+  font-family: "Meow Script", cursive;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+}
