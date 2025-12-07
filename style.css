@@ -35,14 +35,14 @@ header {
 }
 
 .intro {
-  padding: 100px 60px 80px;
+  padding: 100px 60px 40px;
   max-width: 900px;
 }
 
 .title {
   font-family: "Manrope", sans-serif;
   font-size: 3.5rem;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   color: #2e4730;
 }
 
@@ -62,6 +62,37 @@ header {
 .team {
   padding: 100px 60px;
 }
+
+.team h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2e4730;
+}
+
+.team-container {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+.member {
+  flex: 1 20px;
+  height: 400px;
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+}
+
+.one { background-image: url('https://i.pinimg.com/736x/d8/d6/f5/d8d6f52461357f599cf5f03c889015ee.jpg'); }
+.two { background-image: url('https://i.pinimg.com/736x/b0/01/67/b001674bfaee3a4b131cb58678be4a4b.jpg'); }
+.three { background-image: url('https://i.pinimg.com/736x/32/a8/0a/32a80aa0b17e5e7e154a404bf4667869.jpg'); }
+.four { background-image: url('https://i.pinimg.com/1200x/7e/94/cc/7e94cc60ff1a27f962ab7c851a11e563.jpg'); }
 
 .work {
   padding: 100px 60px;
