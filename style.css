@@ -106,3 +106,27 @@ header {
   color: #2e4730;
   text-align: right;
 }
+
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  text-align: center;
+}
+
+.work {
+  flex: 1 20px;
+  height: 300px;
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+}
+
+.first { background-image: url('https://i.pinimg.com/736x/cc/79/fb/cc79fb4628a3adb0052ee34eba7ca3ed.jpg'); }
+.second { background-image: url('https://i.pinimg.com/736x/c5/69/06/c56906f0c5303e6774ab61bad2ed5ff6.jpg'); }
+.third { background-image: url('https://i.pinimg.com/736x/08/88/87/088887325c283f9d2bc02fb6364d60f7.jpg'); }
